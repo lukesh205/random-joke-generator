@@ -1,0 +1,65 @@
+/* App.css or index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6; /* light gray */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.joke-container p {
+  font-size: 1.2rem;
+  color: #374151;
+  margin-top: 20px;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+button {
+  background-color: #4f46e5; /* Indigo */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .joke-container p {
+    font-size: 1rem;
+  }
+}
